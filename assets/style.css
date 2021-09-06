@@ -208,7 +208,7 @@ border-right: 2px solid var(--body-text);
 .contact-links {
     font-size: 1.2em;
     font-weight: 600;
-    text-decoration: underline var(--main-color) ;
+    text-decoration: underline var(--main-color) 2px;
     color: var(--contrast-color);
 }
 
