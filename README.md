@@ -22,6 +22,19 @@ To install this project, follow these steps:
 You can access the website here: 
 https://jfisher37.github.io/portfolio_proto/
 
+It's fairly simple to use. Just click on the links in the nav bar to get to the appropriate section. 
+
+![screenshot of top of webpage](assets/images/proto_portfolio_screenshot.png)
+
+In the work section, you can click on any of the images to be brought to its respective application.
+
+![work section](assets/images/work_screenshot.png)
+
+In the contact section, simply click on the appropriate links to be directed to their sites.
+
+![contact section](assets/images/contact_screenshot.png)
+
+   
 
 ## License
 Copyright (c) 2021 Joseph Fisher

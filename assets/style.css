@@ -7,7 +7,7 @@
     --body-text: #977a18;
 
 }
-
+/* Basic text settings */
 * {
     font-size: 16px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,14 +25,14 @@ header {
     width: 100%;
     height: 80px;
 }
-
+/* Keeps h1 and nav from overlapping */
 #wrap-header{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
-
+/* contains h1 text */
 #h1-box{
     background-color: var(--main-color);
     position: relative;
@@ -71,7 +71,7 @@ nav a{
     color: var(--main-color);
     font-size: 1.3em;
 }
-
+/* background image for subheader */
 #subheader{
     width: 100%;
     height: 130px;
@@ -80,7 +80,7 @@ nav a{
   
    
 }
-
+/* subheader text */
 #subheader h2{
     position: absolute;
     top: 140px;
@@ -92,13 +92,13 @@ nav a{
 
     
 }
-
+/* a grid to divide the section titles from their respective content. */
 .grid-div{
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
 }
-
+/* section titles */
 .side-text{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -108,7 +108,7 @@ nav a{
     color: var(--body-text);
 
 }
-
+/* Places the section contents to the right of the titles, creates dashed border. */
 .central-content{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -121,7 +121,7 @@ nav a{
 section {
     margin-bottom: 2em;
 }
-
+/* Creates a sub-grid for the diffrent apps in the portfolio */
 #apps {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -176,12 +176,12 @@ section {
     cursor: grab;
 
 }
-
+/* removes blur from hovered/focused images */
 .app-imgs:hover,
 .app-imgs:focus{
     filter: blur(0);
 }
-
+/* titles of the apps */
 .app-title{
 color: var(--body-text);
 background-color: var(--main-color);
@@ -198,6 +198,7 @@ border-bottom: 2px solid var(--body-text);
 border-right: 2px solid var(--body-text);
 }
 
+/* orders the ul of contact info */
 #contact-contain{
     width: 100%;
     display: flex;
@@ -205,6 +206,7 @@ border-right: 2px solid var(--body-text);
     align-items: center;
 }
 
+/* a bit of a misnomer. They're not all links. */
 .contact-links {
     font-size: 1.2em;
     font-weight: 600;
@@ -212,11 +214,12 @@ border-right: 2px solid var(--body-text);
     color: var(--contrast-color);
 }
 
+/* Keeps the contact me section from smashing against the bottom */
 #contact-me{
     padding-bottom: 70px;
 }
 
-/* Tablets  */
+/* Adjustments made for tablets  */
 @media screen and (max-width: 992px) {
    main{
        width: 95%;
@@ -286,7 +289,7 @@ border-right: 2px solid var(--body-text);
 
   }
   
-  /* Large smartphones*/
+  /* Adjustments made for large smartphones*/
   @media screen and (max-width: 768px) {
    
     header{
@@ -365,7 +368,7 @@ border-right: 2px solid var(--body-text);
     }
   }
   
-  /* Small smartphones */
+  /* Adjustments made for small smartphones */
   @media screen and (max-width: 576px) {
 
     header{
