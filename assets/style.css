@@ -398,6 +398,10 @@ border-right: 2px solid var(--body-text);
         justify-content: space-between;
     }
     
+    #about-me-text{
+        font-size: .7em;
+    }
+
     .app-title{
         font-size: .7em;
         padding: 10px 15px;
@@ -420,5 +424,6 @@ border-right: 2px solid var(--body-text);
         line-height: 3em;
        
     }
+
     
   }
