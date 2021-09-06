@@ -373,9 +373,13 @@ border-right: 2px solid var(--body-text);
     }
 
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
+    #subheader h2{
+        font-size: 1em;
+        
+    }
     nav a {
         font-size: 1em;
     }
@@ -393,20 +397,25 @@ border-right: 2px solid var(--body-text);
     
     .app-title{
         font-size: .7em;
-       
+        padding: 10px 15px;
         }
 
     .side-text{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin-right: 10px;
     }
 
     #contact-contain{
-        width: 105%;
+        width: 100%;
         justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
         
     }
     .contact-links{
-        font-size: .6em;
+        font-size: .7em;
+        line-height: 3em;
+       
     }
     
   }
