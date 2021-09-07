@@ -47,7 +47,32 @@ color: var(--contrast-color);
 display: inline-block;
 font-size: 3em;
 line-height: 1em;
+
 }
+
+header span{
+  
+   
+}
+
+#me-photo{
+    height: 50%;
+    width: auto;
+    position: fixed;
+    right: 70px;
+    top: 200px;
+    display: none;
+    z-index: 1;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#subheader h2:hover + #me-photo,
+#subheader h2:focus + #me-photo {
+ display: inline-block;
+  
+}
+
 
 header nav {
     position: relative;
@@ -89,6 +114,8 @@ nav a{
     text-align: right;
     background-color: var(--main-color);
     color: var(--contrast-color);
+    text-decoration: underline;
+    cursor: grab;
 
     
 }
